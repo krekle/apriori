@@ -87,8 +87,8 @@ public class AprioriAssociationRuleGenerator {
     public static void main(String[] args) {
         //System.out.println("Starting (dataset=" + args[0] + ", minsup=" + args[1] + ", minconf=" +  args[2] + ")...");
 
-        String min_sup = "0.6";
-        String min_conf = "0.6";
+        String min_sup = "0.4";
+        String min_conf = "0.5";
 
 
         String[] kargs = {"small", min_sup, min_conf};
